@@ -1,0 +1,128 @@
+@import "variables.less";
+
+#conteiner{
+	width: @conteiner_width;
+	height: @conteiner_height;
+	margin: 0 auto;
+	background: url('fon.jpg');
+	padding-top:20px;
+}
+footer {
+	width: @footer_width;
+	margin: 0 auto;
+	background: @font_color1;
+	text-align: center;
+	color:font_color1;
+	height: @footer_height;
+
+	}
+h1{
+	font-family:@fontfamily;
+	font-style:italic;
+	font-size: @h1_font_size;
+	color:@font_color2;
+	text-align:center;
+	text-shadow: black 0 0 2px;
+	}
+#btn_reg {
+	padding:20px 0 20px 0;
+		}
+.btn{
+	border-radius:@radius;
+	border: 1px solid #999;
+	background:   @background;
+
+	color:black;
+	font-size: @button_font_size;
+	text-decoration: none;
+	vertical-align: top;
+	margin: 15px auto; 
+	width: @button_width;
+	height: @button_height;
+	}
+.btn:hover{
+	background:   @button_hover_background;
+	color: @color_background;
+	}
+.btn-default {
+	width: @button_default_width;
+	height: @button_default_height;
+	font-size: @button_default_font_size; 
+	}
+
+
+
+.classic {	
+        border-radius: @radius*0.5;
+    margin-top: 5;
+    height: 40px;
+    background-color:lighten(@font_color2,5%);}
+.reg {    
+	width: 182px;
+    height: auto;
+
+}
+.visible {
+	background: lighten(@font_color2,10%);
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-top: -200px;
+	overflow: hidden;
+	z-index: 2000;
+	width: 450px;
+	height: 400px;
+	padding: 0px;
+	margin-left: -250px;
+    border-radius: @radius*0.5;
+	
+}
+.col-md-6 {
+	    padding: 25px;
+
+}
+
+#cont{
+	width: @cont_width;
+	margin:0 auto;}
+#cont p {
+	margin: 30px 0 10px;
+		}
+#p{
+	font-size: @p_font_size;
+	color:white;
+	text-align:justify;
+	line-height:30px;
+	}
+.col-md-4{
+	text-align: left;
+	font-size: @col_md_4_font_size;
+	color: black;
+	padding: 20 30 10 30;
+	}
+.col-md-offset-4{
+	text-align:right;}
+
+.nav {
+	width: @nav_width;
+	margin: auto;
+	padding: 15px 0;
+	overflow: hidden;
+	font-size: @nav_font_size;
+			}
+b {
+	font-size: @b_font_size;
+	color: @b_color;
+			}
+#body1 p{
+	text-indent: 50px;
+	text-align: justify;
+			}
+#body1{
+	background-color: @body1_background-color;
+	padding: 3%;
+	height: @body1_height;
+			}
+#header {
+	height: @header_height;
+}
